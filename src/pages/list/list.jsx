@@ -21,7 +21,7 @@ export default function list() {
         console.error("error while fetching cardImages", error);
       });
   }, []);
-
+  console.log("hey kya kre ho");
   return (
     <div className="bg-gray-900 h-max text-white">
       <Navbar />
