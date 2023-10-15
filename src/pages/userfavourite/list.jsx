@@ -8,7 +8,7 @@ export default function list() {
 
   useEffect(() => {
     axios({
-      url: "https://hotstarbackend.vercel.app/sGetMyFavouriteCards",
+      url: "https://hotstarbackend.vercel.app/GetMyFavouriteCards",
       method: "GET",
       headers: {
         token: sessionStorage.getItem("token"),
