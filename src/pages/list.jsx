@@ -20,6 +20,7 @@ export default function list() {
       })
       .catch((error) => {
         console.error("error while fetching cardImages", error);
+        console.log("nhi chli");
       });
   }, []);
 
