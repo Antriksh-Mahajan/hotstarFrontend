@@ -83,7 +83,7 @@ export default function Navbar() {
             </Link>
             <Link
               className="text-gray-300 px-2  hover:text-white text-lg mx-2  "
-              href="/list/list"
+              href="/userfavourite/list"
             >
               WatchList
             </Link>
