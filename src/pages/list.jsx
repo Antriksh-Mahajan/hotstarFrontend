@@ -1,18 +1,18 @@
 import React, { useEffect, useState } from "react";
-import Navbar from "../components/Navbar";
-import Cards from "../components/Cards";
+import Navbar from "../pages/components/Navbar";
+import Cards from "../pages/components/Cards";
 import axios from "axios";
 
 export default function list() {
   const [CardImages, setCardImages] = useState([]);
-  
-    useEffect(() => {
+
+  useEffect(() => {
     axios({
       url: "http://localhost:3001/GetMyFavouriteCards",
       method: "GET",
-      headers: {  
-      token: sessionStorage.getItem("token"),
-    },
+      headers: {
+        token: sessionStorage.getItem("token"),
+      },
     })
       .then((response) => {
         setCardImages(response.data.data);

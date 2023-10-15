@@ -1,8 +1,5 @@
 import { React } from "react";
 import Link from "next/link";
-// import { useRouter } from "next/navigation";
-// import "./Navbar.css";
-import Login from "../auth/login";
 import { useState } from "react";
 import { useRouter } from "next/router";
 
