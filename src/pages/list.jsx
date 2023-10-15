@@ -16,6 +16,7 @@ export default function list() {
     })
       .then((response) => {
         setCardImages(response.data.data);
+        console.log("chal gyi");
       })
       .catch((error) => {
         console.error("error while fetching cardImages", error);

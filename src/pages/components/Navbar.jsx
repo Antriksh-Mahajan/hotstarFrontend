@@ -21,11 +21,11 @@ const Dropdown = () => {
       </button>
       {isOpen && (
         <div className="dropdown-content">
-          <Link href="/auth/register">
-            <a className="dropdown-button">Register</a>
+          <Link href="/auth/register" className="dropdown-button">
+            Register
           </Link>
-          <Link href="/auth/login">
-            <a className="dropdown-button">Login</a>
+          <Link className="dropdown-button" href="/auth/login">
+            Login
           </Link>
         </div>
       )}

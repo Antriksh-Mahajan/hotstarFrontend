@@ -14,6 +14,7 @@ export default function cards({ CardImages, name }) {
       .then(() => {})
       .catch(console.error);
   };
+
   return (
     <div className="overflow-y-hidden">
       <h2 className="flex flex-row m-10 text-4xl font-bold ">{name}</h2>

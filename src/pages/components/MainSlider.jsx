@@ -16,7 +16,7 @@ const NextJsCarousel = () => {
         console.error("Error fetching data:", error);
       });
   }, []);
-  console.log(sliderData);
+  // console.log(sliderData);
   return (
     <div className="antriksh bg-blend-multiple">
       <Carousel infiniteLoop={true} autoPlay={true}>
